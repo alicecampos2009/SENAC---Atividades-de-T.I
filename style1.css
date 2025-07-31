@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    background-color: #ffddda;
+}
+
+h1 {
+    font-family: "Cookie", cursive;
+    text-align: center;
+    color: #c06b62;
+}
