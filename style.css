@@ -1,13 +1,44 @@
 @charset "UTF-8";
-/* Essa propriedade serve para corrigir erros de acentuação, mas não é obrigatório */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
-body{
-    /*background-image: radiaç-gradient(circle, red, blue);*/
-    
-    background-image: linear-gradient(90deg, rgb(255, 206, 206), rgb(182, 134, 134));
+:root {
+    --cor-principal : purple;
+}
+
+h1{
+    font-family: "Parisienne", cursive;
+    color: blue;
 }
 
 p {
-    color: rgb(157, 26, 26);
-    color: #911c12;
+    color: var(--cor-principal);
+}
+
+#titulo-principal {
+    color: red;
+}
+
+.topico {
+    background-color: black;
+    color: white;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: darkred
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.especial:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
 }
