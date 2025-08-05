@@ -5,8 +5,30 @@ body {
     background-color: #ffddda;
 }
 
-h1 {
+#titulo-principal {
     font-family: "Cookie", cursive;
     text-align: center;
     color: #c06b62;
+    font-size: 50px;
+}
+
+#texto-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #582d28;
+}
+    .container {
+      display: flex;
+      align-items: center;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #582d28;
+}
+
+ol {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #582d28;
 }
